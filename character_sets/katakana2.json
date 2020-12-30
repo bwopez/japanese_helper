@@ -1,0 +1,314 @@
+{
+    "\u30a0": {
+        "unicode": "30a0",
+        "english": "tabaru hiphun"
+    },
+    "\u30a2": {
+        "unicode": "30a2",
+        "english": "A"
+    },
+    "\u30a4": {
+        "unicode": "30a4",
+        "english": "I"
+    },
+    "\u30a6": {
+        "unicode": "30a6",
+        "english": "U"
+    },
+    "\u30a8": {
+        "unicode": "30a8",
+        "english": "E"
+    },
+    "\u30aa": {
+        "unicode": "30aa",
+        "english": "O"
+    },
+    "\u30ab": {
+        "unicode": "30ab",
+        "english": "Ka"
+    },
+    "\u30ac": {
+        "unicode": "30ac",
+        "english": "Ga"
+    },
+    "\u30ad": {
+        "unicode": "30ad",
+        "english": "Ki"
+    },
+    "\u30ae": {
+        "unicode": "30ae",
+        "english": "Gi"
+    },
+    "\u30af": {
+        "unicode": "30af",
+        "english": "Ku"
+    },
+    "\u30b0": {
+        "unicode": "30b0",
+        "english": "Gu"
+    },
+    "\u30b1": {
+        "unicode": "30b1",
+        "english": "Ke"
+    },
+    "\u30b2": {
+        "unicode": "30b2",
+        "english": "Ge"
+    },
+    "\u30b3": {
+        "unicode": "30b3",
+        "english": "Ko"
+    },
+    "\u30b4": {
+        "unicode": "30b4",
+        "english": "Go"
+    },
+    "\u30b5": {
+        "unicode": "30b5",
+        "english": "Sa"
+    },
+    "\u30b6": {
+        "unicode": "30b6",
+        "english": "Za"
+    },
+    "\u30b7": {
+        "unicode": "30b7",
+        "english": "Shi"
+    },
+    "\u30b8": {
+        "unicode": "30b8",
+        "english": "Ji"
+    },
+    "\u30b9": {
+        "unicode": "30b9",
+        "english": "Su"
+    },
+    "\u30ba": {
+        "unicode": "30ba",
+        "english": "Zu"
+    },
+    "\u30bb": {
+        "unicode": "30bb",
+        "english": "Se"
+    },
+    "\u30bc": {
+        "unicode": "30bc",
+        "english": "Ze"
+    },
+    "\u30bd": {
+        "unicode": "30bd",
+        "english": "So"
+    },
+    "\u30be": {
+        "unicode": "30be",
+        "english": "Zo"
+    },
+    "\u30bf": {
+        "unicode": "30bf",
+        "english": "Ta"
+    },
+    "\u30c0": {
+        "unicode": "30c0",
+        "english": "Da"
+    },
+    "\u30c1": {
+        "unicode": "30c1",
+        "english": "Chi"
+    },
+    "\u30c2": {
+        "unicode": "30c2",
+        "english": "Ji"
+    },
+    "\u30c4": {
+        "unicode": "30c4",
+        "english": "Tsu"
+    },
+    "\u30c5": {
+        "unicode": "30c5",
+        "english": "Zu"
+    },
+    "\u30c6": {
+        "unicode": "30c6",
+        "english": "Te"
+    },
+    "\u30c7": {
+        "unicode": "30c7",
+        "english": "De"
+    },
+    "\u30c8": {
+        "unicode": "30c8",
+        "english": "To"
+    },
+    "\u30c9": {
+        "unicode": "30c9",
+        "english": "Do"
+    },
+    "\u30ca": {
+        "unicode": "30ca",
+        "english": "Na"
+    },
+    "\u30cb": {
+        "unicode": "30cb",
+        "english": "Ni"
+    },
+    "\u30cc": {
+        "unicode": "30cc",
+        "english": "Nu"
+    },
+    "\u30cd": {
+        "unicode": "30cd",
+        "english": "Ne"
+    },
+    "\u30ce": {
+        "unicode": "30ce",
+        "english": "No"
+    },
+    "\u30cf": {
+        "unicode": "30cf",
+        "english": "Ha"
+    },
+    "\u30d0": {
+        "unicode": "30d0",
+        "english": "Ba"
+    },
+    "\u30d1": {
+        "unicode": "30d1",
+        "english": "Pa"
+    },
+    "\u30d2": {
+        "unicode": "30d2",
+        "english": "Hi"
+    },
+    "\u30d3": {
+        "unicode": "30d3",
+        "english": "Bi"
+    },
+    "\u30d4": {
+        "unicode": "30d4",
+        "english": "Pi"
+    },
+    "\u30d5": {
+        "unicode": "30d5",
+        "english": "Fu"
+    },
+    "\u30d6": {
+        "unicode": "30d6",
+        "english": "Bu"
+    },
+    "\u30d7": {
+        "unicode": "30d7",
+        "english": "Pu"
+    },
+    "\u30d8": {
+        "unicode": "30d8",
+        "english": "He"
+    },
+    "\u30d9": {
+        "unicode": "30d9",
+        "english": "Be"
+    },
+    "\u30da": {
+        "unicode": "30da",
+        "english": "Pe"
+    },
+    "\u30db": {
+        "unicode": "30db",
+        "english": "Ho"
+    },
+    "\u30dc": {
+        "unicode": "30dc",
+        "english": "Bo"
+    },
+    "\u30dd": {
+        "unicode": "30dd",
+        "english": "Po"
+    },
+    "\u30de": {
+        "unicode": "30de",
+        "english": "Ma"
+    },
+    "\u30df": {
+        "unicode": "30df",
+        "english": "Mi"
+    },
+    "\u30e0": {
+        "unicode": "30e0",
+        "english": "Mu"
+    },
+    "\u30e1": {
+        "unicode": "30e1",
+        "english": "Me"
+    },
+    "\u30e2": {
+        "unicode": "30e2",
+        "english": "Mo"
+    },
+    "\u30e4": {
+        "unicode": "30e4",
+        "english": "Ya"
+    },
+    "\u30e6": {
+        "unicode": "30e6",
+        "english": "Yu"
+    },
+    "\u30e8": {
+        "unicode": "30e8",
+        "english": "Yo"
+    },
+    "\u30e9": {
+        "unicode": "30e9",
+        "english": "Ra"
+    },
+    "\u30ea": {
+        "unicode": "30ea",
+        "english": "Ri"
+    },
+    "\u30eb": {
+        "unicode": "30eb",
+        "english": "Ru"
+    },
+    "\u30ec": {
+        "unicode": "30ec",
+        "english": "Re"
+    },
+    "\u30ed": {
+        "unicode": "30ed",
+        "english": "Ro"
+    },
+    "\u30ef": {
+        "unicode": "30ef",
+        "english": "Wa"
+    },
+    "\u30f0": {
+        "unicode": "30f0",
+        "english": "Wi"
+    },
+    "\u30f1": {
+        "unicode": "30f1",
+        "english": "We"
+    },
+    "\u30f3": {
+        "unicode": "30f3",
+        "english": "N"
+    },
+    "\u30f4": {
+        "unicode": "30f4",
+        "english": "Vu"
+    },
+    "\u30f7": {
+        "unicode": "30f7",
+        "english": "Va"
+    },
+    "\u30f8": {
+        "unicode": "30f8",
+        "english": "Vi"
+    },
+    "\u30f9": {
+        "unicode": "30f9",
+        "english": "Ve"
+    },
+    "\u30fa": {
+        "unicode": "30fa",
+        "english": "Vo"
+    }
+}

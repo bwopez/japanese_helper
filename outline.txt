@@ -1,0 +1,14 @@
+Goal: Make a quiz program to test hirigana and katakana
+
+- Have a menu to choose what to quiz
+- Choose how many questions
+    - Every question has a multiple choice of 4 choices
+    - If incorrect then save that one for later, add it to the end like Duolingo
+- Choose to do time attack
+    - Have a high score on time attack
+- Each hirigana and katakana character has a corresponding english sound
+- Maybe store them in a dictionary or txt file to read later
+- Every question will pick 3 random other characters and use their corresponding english sound
+    for the incorrect choices while the correct character and sound will be added
+
+ 
