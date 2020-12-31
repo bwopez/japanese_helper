@@ -1,0 +1,28 @@
+December 29 TODOs
+DONE 1) Change the dictionaries in the hiragana.json and katakana.json to hold the characters english sounds
+DONE 2) The format should be:
+    {
+        "Character": "hiragana/katakana",
+        "unicode": "\u3048", (example)
+        "english": "he" (example)
+    }
+DONE 3) Maybe make a script that goes through each of the characters and asks the user what sound they make
+DONE 4) Maybe add a way to delete certain characters if it shouldn't be used
+DONE 5) Write a journal entry
+
+December 30 TODOs
+DONE 1) Create one multiple choice question
+    Format should be
+    - Have the user choose either hiragana or katakana
+    - pick from the corresponding file
+DONE    - choose one character at random to be the correct answer/question
+DONE    - choose three other characters at random to be incorrect
+DONE    - Ask the question
+DONE    - Prompt the user to input their answer
+DONE    - If the user's answer matches the correct answer's value then it is correct
+        if lower(answer) == lower(character["english"])
+DONE    - Else it is incorrect. Let them try two more times
+DONE 2) Once thats done, capsulate that so it can be done multiple times
+3) Make a quiz out of the multiple multiple choice questions, for ex. 20 question quiz
+4) If you can, make a time attack version where the user answers as many as they can in one-two minutes
+DONE 5) Write a journal entry
