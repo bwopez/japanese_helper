@@ -1,9 +1,0 @@
-DONE 1) Change the dictionaries in the hiragana.json and katakana.json to hold the characters english sounds
-DONE 2) The format should be:
-    {
-        "Character": "hiragana/katakana",
-        "unicode": "\u3048", (example)
-        "english": "he" (example)
-    }
-DONE 3) Maybe make a script that goes through each of the characters and asks the user what sound they make
-DONE 4) Maybe add a way to delete certain characters if it shouldn't be used
