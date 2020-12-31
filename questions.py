@@ -40,7 +40,7 @@ def get_choices(list_data):
     return choices
 
 
-def format_questions(data, choices):
+def format_question(data, choices, number_of_attempts):
     """
     Returns either True or False. True is the user got the answer correct, False is the user got the answer wrong.
     """
@@ -56,10 +56,10 @@ def format_questions(data, choices):
     )
 
     user_input = ""
-    for attempts in range(3):
+    for attempts in range(number_of_attempts):
         user_input = input()
         if user_input.lower() == data[correct_answer]["english"].lower():
-            print("That is the correct answer")
+            # print("That is the correct answer")
             return True
         else:
             print("That is the wrong answer. Please try again.")
@@ -67,16 +67,37 @@ def format_questions(data, choices):
     return False
 
 
+def quiz(number_of_questions, data, list_data):
+    """
+    You've only got one shot at getting these answers right. Good luck.
+    """
+    total_score = 0
+    for question in range(number_of_questions):
+        all_choices = get_choices(list_data)
+        result = format_question(data, all_choices, 1)
+
+        if result:
+            total_score = total_score + 1
+    
+    print("You've gotten {}/{}".format(total_score, number_of_questions))
+
 
 def main():
     # I need both the original dictionary and the list version
     # one is for input checking, the other is for random.choice
-    data, list_data = get_data("character_sets/hiragana2.json")
+    print("Enter 1 for Hiragana, 2 for Katakana")
+    user_choice = input()
+    if user_choice == "1":
+        file_name = "character_sets/hiragana2.json"
+    elif user_choice == "2":
+        file_name = "character_sets/katakana2.json"
+    else:
+        file_name = ""
+        print("Sorry. I do not recognize that file. Closing program.")
 
-    all_choices = get_choices(list_data)
-    ending_statement = format_questions(data, all_choices)
-    
-    print(ending_statement)
+    if file_name:
+        data, list_data = get_data(file_name)
+        quiz(20, data, list_data)
 
 
 if __name__ == "__main__":
