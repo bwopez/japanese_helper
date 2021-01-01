@@ -7,7 +7,7 @@
     # print("Thats pretty correct.")
 # else:
     # print("Thats not right")
-import random, json
+import random, json, time
 
 
 def get_data(file_name):
@@ -82,22 +82,48 @@ def quiz(number_of_questions, data, list_data):
     print("You've gotten {}/{}".format(total_score, number_of_questions))
 
 
+def time_attack(total_time, data, list_data):
+    total_score = 0
+    number_of_questions = 0
+    start = time.time()
+    elapsed_time = 0
+    while elapsed_time < total_time:
+        all_choices = get_choices(list_data)
+        result = format_question(data, all_choices, 1)
+
+        if result:
+            total_score = total_score + 1
+        number_of_questions = number_of_questions + 1
+        elapsed_time = time.time() - start
+    
+    print("Times up. You've gotten {}/{}".format(total_score, number_of_questions))
+
+
 def main():
     # I need both the original dictionary and the list version
     # one is for input checking, the other is for random.choice
+    print("Would you like to do a 20 questions quiz or a time attack for 30 seconds?")
+    print("Enter 1 for quiz, 2 for time attack")
+    test_type_choice = input()
     print("Enter 1 for Hiragana, 2 for Katakana")
-    user_choice = input()
-    if user_choice == "1":
+    character_set_choice = input()
+    if character_set_choice == "1":
         file_name = "character_sets/hiragana2.json"
-    elif user_choice == "2":
+    elif character_set_choice == "2":
         file_name = "character_sets/katakana2.json"
     else:
         file_name = ""
         print("Sorry. I do not recognize that file. Closing program.")
 
-    if file_name:
+    if file_name:    
         data, list_data = get_data(file_name)
-        quiz(20, data, list_data)
+
+        if test_type_choice == "1":
+            quiz(20, data, list_data)
+        elif test_type_choice == "2":
+            time_attack(30, data, list_data)
+
+    print("Ending now.")
 
 
 if __name__ == "__main__":

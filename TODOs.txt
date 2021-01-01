@@ -24,5 +24,5 @@ DONE       if lower(answer) == lower(character["english"])
 DONE    - Else it is incorrect. Let them try two more times
 DONE 2) Once thats done, capsulate that so it can be done multiple times
 DONE 3) Make a quiz out of the multiple multiple choice questions, for ex. 20 question quiz
-4) If you can, make a time attack version where the user answers as many as they can in one-two minutes
+DONE 4) If you can, make a time attack version where the user answers as many as they can in one-two minutes
 DONE 5) Write a journal entry
