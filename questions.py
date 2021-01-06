@@ -99,21 +99,21 @@ def time_attack(total_time, data, list_data):
     print("Times up. You've gotten {}/{}".format(total_score, number_of_questions))
 
 
-def main():
+def questions_controller(character_set_choice):
     # I need both the original dictionary and the list version
     # one is for input checking, the other is for random.choice
     print("Would you like to do a 20 questions quiz or a time attack for 30 seconds?")
     print("Enter 1 for quiz, 2 for time attack")
     test_type_choice = input()
-    print("Enter 1 for Hiragana, 2 for Katakana")
-    character_set_choice = input()
+    # print("Enter 1 for Hiragana, 2 for Katakana")
+    # character_set_choice = input()
     if character_set_choice == "1":
         file_name = "character_sets/hiragana2.json"
     elif character_set_choice == "2":
         file_name = "character_sets/katakana2.json"
     else:
         file_name = ""
-        print("Sorry. I do not recognize that file. Closing program.")
+        print("Sorry. I do not recognize that file. Going to Main Menu.")
 
     if file_name:    
         data, list_data = get_data(file_name)
@@ -127,4 +127,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    questions_controller("1")
