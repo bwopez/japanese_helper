@@ -1,16 +1,20 @@
 from game_modes import katakana, hiragana
+from questions import questions_controller
+from kanji import kanji_controller
 
 
 def get_input():
     print("""Press 'q' to quit. Otherwise we will show your input.
     1) Katakana
     2) Hiragana
+    3) Kanji-A-Day
     """)
-    user_input = input()
+    user_input = input().lower()
+    available_choices = ["1", "2", "3", "q", "quit"]
 
-    while len(user_input) > 1:
-        print("Please only use one(1) character.")
-        user_input = input()
+    while user_input not in available_choices:
+        print("Please only answer with '1', '2', '3', or 'q'")
+        user_input = input().lower()
 
     return user_input
 
@@ -18,12 +22,18 @@ def get_input():
 def game():
     choice = get_input()
 
-    while choice != "q":
-        print("Your input was: " + choice)
-        if choice == "1":
-            katakana()
-        elif choice == "2":
-            hiragana()
+    while choice != "q" and choice !="quit":
+        # print("Your input was: " + choice)
+        # if choice == "1":
+        #     katakana()
+        # elif choice == "2":
+        #     hiragana()
+        if choice == "3":
+            # kanji-a-day placeholder
+            print("This is where the kanji goes")
+            kanji_controller()
+        else:
+            questions_controller(choice)
 
         choice = get_input()
 

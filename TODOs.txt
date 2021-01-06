@@ -26,3 +26,13 @@ DONE 2) Once thats done, capsulate that so it can be done multiple times
 DONE 3) Make a quiz out of the multiple multiple choice questions, for ex. 20 question quiz
 DONE 4) If you can, make a time attack version where the user answers as many as they can in one-two minutes
 DONE 5) Write a journal entry
+
+January 4 TODOs
+DONE 1) Create a Kanji-A-Day.com scraper
+DONE 2) Add a main menu when the program starts up
+DONE 3) Add a Hiragana excerise option
+DONE 4) Add a Katakana exercise option
+DONE     - Edit the questions.py file to reflect the new main menu
+DONE 5) Add a Kanji-A-Day option in the main menu
+6) Take a look back at game_modes.py to see what can be added to the program
+7) Write a journal entry
