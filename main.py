@@ -1,4 +1,3 @@
-from game_modes import katakana, hiragana
 from questions import questions_controller
 from kanji import kanji_controller
 
@@ -48,14 +47,7 @@ def game():
     choice = get_input()
 
     while choice != "q" and choice !="quit":
-        # print("Your input was: " + choice)
-        # if choice == "1":
-        #     katakana()
-        # elif choice == "2":
-        #     hiragana()
         if choice == "3":
-            # kanji-a-day placeholder
-            print("This is where the kanji goes")
             kanji_controller()
         else:
             questions_controller(choice)

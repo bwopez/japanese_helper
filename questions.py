@@ -1,12 +1,3 @@
-# pick one random key from hiragana2.json
-# pick three random keys from hiragana2.json
-    # if current_key in all_keys:
-        # choose another random key
-# prompt user for answer
-# if answer == correct["english]:
-    # print("Thats pretty correct.")
-# else:
-    # print("Thats not right")
 import random, json, time
 
 
@@ -119,7 +110,6 @@ def format_question(data, choices, number_of_attempts):
     for attempts in range(number_of_attempts):
         user_input = input()
         if user_input.lower() == data[correct_answer]["english"].lower():
-            # print("That is the correct answer")
             return True
         else:
             print("That is the wrong answer. Please try again.")
@@ -206,8 +196,7 @@ def questions_controller(character_set_choice):
     print("Would you like to do a 20 questions quiz or a time attack for 30 seconds?")
     print("Enter 1 for quiz, 2 for time attack")
     test_type_choice = input()
-    # print("Enter 1 for Hiragana, 2 for Katakana")
-    # character_set_choice = input()
+    
     if character_set_choice == "1":
         file_name = "character_sets/hiragana2.json"
     elif character_set_choice == "2":

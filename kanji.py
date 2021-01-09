@@ -1,12 +1,3 @@
-"""
-Kanji-A-Day.com scraper
-DONE - use beautifulsoup to scrape the website page
-DONE - get 'todays Kanji' with an element of glyph
-- get reading too? I'm not sure
-DONE - maybe put the glyph into gTTS to get the sound of it if you're freaky
-- if you're really freaky then open the stroke order diagram in a dialogue box
-- maybe somewhere down the line add this to a calendar thing
-"""
 import requests, os
 from bs4 import BeautifulSoup as bs
 from character_sets.sound_script import create_sound, play_sound, delete_sound
