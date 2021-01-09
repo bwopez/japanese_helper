@@ -12,7 +12,34 @@ from bs4 import BeautifulSoup as bs
 from character_sets.sound_script import create_sound, play_sound, delete_sound
 
 
+def print_path():
+    """Prints the current path
+
+    Prints the current location of the current file.
+
+    Args:
+        None
+    Returns:
+        None
+    """
+
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    print(dir_path)
+
+
 def kanji_controller():
+    """This is the controller function for the kanji.py file
+
+    The function gets the 'soup' from http://www.kanji-a-day.com/ and extracts 
+    today's glyph, plays what it sounds like, and prints what it looks like.
+
+    Args:
+        None
+
+    Returns:
+        None
+    """
+
     page = requests.get("http://www.kanji-a-day.com/")
     soup = bs(page.content, 'html.parser')
 
@@ -32,11 +59,6 @@ def kanji_controller():
     # getting on-reading
 
     # getting kun-reading
-
-
-def print_path():
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    print(dir_path)
 
 
 if __name__ == "__main__":
