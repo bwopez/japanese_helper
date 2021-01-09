@@ -35,12 +35,10 @@ def create_sound(character, directory):
         The relative file name of the temporary sound file
     """
 
-    # mytext="\u3048"
     mytext = character
     language = "ja"
     myobj = gTTS(text=mytext, lang=language, slow=True)
     file_name = os.path.join(directory, "sounds/temporary_sound.mp3")
-    # file_name = "{}\\sounds\\temporary_sound.mp3".format(directory)
     myobj.save(file_name)
 
     return file_name
@@ -91,15 +89,12 @@ def get_english_sound(character):
     print("If you need to hear again, you can paste directly to google translate.")
     play_sound(file_name)
     input_character = input()
-    # delete_sound("sounds\\temporary_sound.mp3")
     delete_sound(file_name)
-    # print("This sounds like '{}'".format(input_character))
 
     return input_character
 
 
 if __name__ == "__main__":
-    # character_controller("\u3041")
     print("Which file would you like to use?")
     main(input())
     print("Thank you. Mata ne~")
