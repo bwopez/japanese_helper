@@ -1,0 +1,10 @@
+beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1601924105527/work
+gTTS==2.2.1
+json5==0.9.5
+playsound==1.2.2
+psutil @ file:///C:/ci/psutil_1598352273540/work
+pygame==2.0.1
+pyperclip==1.8.1
+python-dateutil==2.8.1
+requests @ file:///tmp/build/80754af9/requests_1608241421344/work
+urllib3 @ file:///tmp/build/80754af9/urllib3_1606938623459/work
