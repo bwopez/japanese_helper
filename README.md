@@ -1,9 +1,9 @@
 # japanese_helper
+---
 
 A smll command line quiz game that helps me brush up on Japanese characters.
 
 ## Installation
----
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required libraries.
 
@@ -12,7 +12,6 @@ pip install -r requirements.txt
 ```
 
 ## Usage
----
 
 ```shell
 >python main.py
